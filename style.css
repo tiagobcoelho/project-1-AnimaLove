@@ -1,0 +1,23 @@
+@font-face{
+    font-family: sansita;
+    src: url(/fonts/Sansita-ExtraBoldItalic.ttf);
+}
+@font-face{
+    font-family: poppins;
+    src: url(/fonts/Poppins-SemiBold.ttf);
+}
+
+.navbar{
+    background-color: #EF4A47;
+}
+.navbar-nav{
+    
+}
+
+.navbar-brand{
+    font-family: sansita;
+}
+
+.nav-item{
+    font-family: poppins;
+}
