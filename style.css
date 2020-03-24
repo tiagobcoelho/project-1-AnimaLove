@@ -21,3 +21,40 @@
 .nav-item{
     font-family: poppins;
 }
+
+/******** BODY *********/
+
+.container-fluid{
+    background-color: #FCF9CF;
+    border-bottom: 2px solid #EF4A47;
+}
+
+.title{
+    font-family: sansita;
+    color: #EF4A47;
+    margin-bottom: 20px;
+}
+.text{
+    font-family: poppins;
+    width: 250px;
+    font-size: 20px;
+    color: #EF4A47;
+    margin-bottom: 40px;
+}
+
+.button{
+    background-color: #378FCE;
+    width: 150px;
+    height: 60px;
+    opacity: 0.8;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: poppins;
+    border: none;
+    box-shadow: 5px 5px 15px rgba(89, 88, 88, 0.5);
+    transition: 0.3s;
+}
+.button:hover{
+    opacity: 1;
+}
