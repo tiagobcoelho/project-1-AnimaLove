@@ -1,17 +1,49 @@
-  .bg{
-    /* background: url('') no-repeat;
-    width: 100%;
+body{
+  color:   #EF4A47
+}
+
+@font-face{
+  font-family: sansita;
+  src: url(/fonts/Sansita-ExtraBoldItalic.ttf);
+}
+@font-face{
+  font-family: poppins;
+  src: url(/fonts/Poppins-SemiBold.ttf);
+}
+
+.navbar{
+  background-color: #EF4A47;
+}
+.navbar-nav{
+  
+}
+
+.navbar-brand{
+  font-family: sansita;
+}
+
+.nav-item{
+  font-family: poppins;
+}
+
+
+.bg{
+    background: url('images/doggo1.png') no-repeat;
+    width: 5%;
     height: 100vh;
-    background-size: 100%; */
+    background-size: 100%;
     font-family: sansita;
 } 
 
 
-.marg{
-    /* position: absolute;*/
-    margin-top: 30px;
+.place{
+    position: absolute;
     background: #fff;
    
 
 } 
 
+.titre{
+
+  color: #EF4A47
+}
