@@ -28,8 +28,16 @@ body{
 
 /******** BODY *********/
 
-.container-fluid{
+.row{
+    min-height: 400px;
+}
+
+.section{
+    height: 400px;
     background-color: #FCF9CF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     border-bottom: 2px solid #EF4A47;
 }
 
@@ -101,7 +109,7 @@ footer{
     list-style: none;
     margin: 20px 30px 0 30px;
     color: #ffffff;
-    opacity: .7;
+    opacity: .5;
     cursor: pointer;
 }
 
@@ -110,6 +118,7 @@ footer{
 }
 
 
+/******** MEDIA QUERIES *********/
 
 @media(max-width: 768px){
     .footer-links{
@@ -125,6 +134,17 @@ footer{
         opacity: .7;
         cursor: pointer;
     }
+
+    .image{
+        display: none;
+    }
+
+    .content{
+        text-align: center;
+    }
+    
+
+
 }
 
 
