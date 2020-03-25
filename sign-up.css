@@ -1,6 +1,3 @@
-body{
-  color:   #EF4A47
-}
 
 @font-face{
   font-family: sansita;
@@ -12,10 +9,7 @@ body{
 }
 
 .navbar{
-  background-color: #EF4A47;
-}
-.navbar-nav{
-  
+    background-color: #EF4A47;
 }
 
 .navbar-brand{
@@ -26,24 +20,3 @@ body{
   font-family: poppins;
 }
 
-
-.bg{
-    background: url('images/doggo1.png') no-repeat;
-    width: 5%;
-    height: 100vh;
-    background-size: 100%;
-    font-family: sansita;
-} 
-
-
-.place{
-    position: absolute;
-    background: #fff;
-   
-
-} 
-
-.titre{
-
-  color: #EF4A47
-}

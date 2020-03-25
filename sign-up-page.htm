@@ -40,29 +40,30 @@
                 <section class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <form action="/newaccount" method=post class="form-container"
                     oninput='up2.setCustomValidity(up2.value != up.value ? "Passwords do not match." : "")'>
-                        <div class="place form-group">
+                        
+                        <div class="form-group">
                             <h3 class="col-md-6 col-sm-12 col-12">SIGN UP</h3>
                         </div>
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name">
+                            <input type="text" class="form-control" id="name" required="required">
                         </div>
                         <div class="form-group">
                             <label for="address">Address</label>
-                            <input type="text" class="form-control" id="address">
+                            <input type="text" class="form-control" id="address" required="required">
                         </div>
                         <div class="form-group">
                           <label for="InputEmail">Email address</label>
-                          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required="required">
                           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
                           <label for="InputPassword">Password</label>
-                          <input type="password" class="form-control" id="InputPassword" name="up" required>
+                          <input type="password" class="form-control" id="InputPassword" name="up" required="required">
                         </div>
                         <div class="form-group">
                             <label for="ConfirmPassword">Confirm Password</label>
-                            <input type="password" class="form-control" id="ConfirmPassword" name="up2" required> 
+                            <input type="password" class="form-control" id="ConfirmPassword" name="up2" required="required"> 
                           </div>
                         <div class="form-group form-check">
                           <input type="checkbox" required="required" class="form-check-input" id="Check">
