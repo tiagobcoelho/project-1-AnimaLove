@@ -10,42 +10,61 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav> 
-        </nav>
-
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <img class="navbar-brand" src="logo-image.png" alt="AnimaLove-logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-center" id="responsive">                
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="our-dogs-page.html">0ur dogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sign-up-page.html">Contact us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sign-up-page.html">Sign up</a></li>
+                </ul>
+            </div>
+             <div class="login-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Username" name="username">
+                  <input type="text" placeholder="Password" name="psw">
+                  <button type="submit">Login</button>
+                </form>
+            </div>    
+    </nav>
 
         <section class="container bg">
 
             <section class="row align-items-center">
                 
-                <h2 class="col-md-6 text-md-left col-sm-12">JOIN US AND SPEND SOME QUALITY TIME WITH OUR DOGS</h2>
-                <section class="col-md-6 col-sm-12 col-12">
+                <h2 class="titre col-lg-6 text-lg-left col-md-6 text-md-left col-sm-12 col-12">JOIN US AND SPEND SOME QUALITY TIME WITH OUR DOGS</h2>
+                <section class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <form action="/newaccount" method=post class="form-container"
                     oninput='up2.setCustomValidity(up2.value != up.value ? "Passwords do not match." : "")'>
                         
-                    <div class="form-group">
+                        <div class="form-group">
                             <h3 class="col-md-6 col-sm-12 col-12">SIGN UP</h3>
-                        </div> 
+                        </div>
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name">
+                            <input type="text" class="form-control" id="name" required="required">
                         </div>
                         <div class="form-group">
                             <label for="address">Address</label>
-                            <input type="text" class="form-control" id="address">
+                            <input type="text" class="form-control" id="address" required="required">
                         </div>
                         <div class="form-group">
                           <label for="InputEmail">Email address</label>
-                          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required="required">
                           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
                           <label for="InputPassword">Password</label>
-                          <input type="password" class="form-control" id="InputPassword" name="up" required>
+                          <input type="password" class="form-control" id="InputPassword" name="up" required="required">
                         </div>
                         <div class="form-group">
                             <label for="ConfirmPassword">Confirm Password</label>
-                            <input type="password" class="form-control" id="ConfirmPassword" name="up2" required> 
+                            <input type="password" class="form-control" id="ConfirmPassword" name="up2" required="required"> 
                           </div>
                         <div class="form-group form-check">
                           <input type="checkbox" required="required" class="form-check-input" id="Check">
