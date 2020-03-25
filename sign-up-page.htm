@@ -13,15 +13,19 @@
         <nav> 
         </nav>
 
-        <h2>JOIN US AND SPEND SOME QUALITY TIME WITH OUR DOGS</h2>
-        <h3>SIGN UP</h3>
-        
-        <section class="container-fluid bg">
-            <section class="row justify-content-center">
+
+        <section class="container bg">
+
+                 <section class="row  align-items-center">
                 
-                <section class="col-12 col-sm-6 col-md-3">
-            
-                    <form class="form-container">
+                <h2 class="col-md-6 text-md-left col-sm-12">JOIN US AND SPEND SOME QUALITY TIME WITH OUR DOGS</h2>
+                <section class="col-md-6 col-sm-12 col-12">
+                    <form action="/newaccount" method=post class="form-container"
+                    oninput='up2.setCustomValidity(up2.value != up.value ? "Passwords do not match." : "")'>
+                        
+                    <div class="form-group">
+                            <h3 class="col-md-6 col-sm-12 col-12">SIGN UP</h3>
+                        </div> 
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" class="form-control" id="name">
@@ -37,21 +41,20 @@
                         </div>
                         <div class="form-group">
                           <label for="InputPassword">Password</label>
-                          <input type="password" class="form-control" id="InputPassword">
+                          <input type="password" class="form-control" id="InputPassword" name="up" required>
                         </div>
                         <div class="form-group">
                             <label for="ConfirmPassword">Confirm Password</label>
-                            <input type="password" class="form-control" id="ConfirmPassword">
+                            <input type="password" class="form-control" id="ConfirmPassword" name="up2" required> 
                           </div>
                         <div class="form-group form-check">
                           <input type="checkbox" required="required" class="form-check-input" id="Check">
                           <label class="form-check-label" for="Check">I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block">Submit</button>
-                    </form>
-                   
-                    
-                </section>    
+                    </form>   
+                </section> 
+
             </section>               
         </section>
 
