@@ -214,6 +214,10 @@ footer{
     width: 400px;
   }
 
+  .sign-in-container{
+    width: 400px;
+  }
+
   
 }
 
@@ -243,8 +247,8 @@ footer{
     text-align: center;
   }
 
-  .sign-up-container{
-    width: 80%;
-  }
+  
+
+  
 
 }
