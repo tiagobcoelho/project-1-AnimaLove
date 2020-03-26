@@ -34,6 +34,15 @@ body{
 
 /******** BODY *********/
 
+.go-back-button{
+    background-color: #FCF9CF;
+    padding-top: 30px;
+}
+
+.go-back-button a{
+    margin: 20px 0 0 70px
+}
+
 .sections-container{
     background-color: #FCF9CF;
     display: flex;
@@ -56,7 +65,7 @@ body{
 }
 
 .content-container p{
-    max-width: 600px;
+    max-width: 500px;
     font-family: poppins-regular;
     
 }
