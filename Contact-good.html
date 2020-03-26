@@ -1,10 +1,9 @@
-Contact.html
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>AnimaLove</title>
-        <link rel="stylesheet" href="Contact-good.css">
+        <link rel="stylesheet" href="contact.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -35,34 +34,29 @@ Contact.html
         </nav>
 
             <section class="section-container">
-          
-                <h2 class="titleleft">Drop us a line...</h2>
-                <section class="formsignup">
-                    <form action="/newaccount" method=post class="form-container"
-                    oninput='up2.setCustomValidity(up2.value != up.value ? "Passwords do not match." : "")'>
+                <div class="sign-up-message">
+                    <h2>Drop us a line if you have any questions or suggestions</h2>
+                </div>
+                
+                <form class="sign-up-container">
+                    <div class="sign-up-title">
+                        <h3>Contact Us</h3>
+                    </div>
                         
-                        <div class="titlelogin">
-                            <h3>CONTACT US</h3>
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" required="required">
-                        </div>
-                        <div class="form-group">
-                          <label for="InputEmail">Email address</label>
-                          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required="required">
-                        </div>
-                        <div class="form-group">
-                            <div class="form-group purple-border">
-                                <label for="exampleFormControlTextarea4">Write something to us</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea4" rows="11"></textarea>
-                              </div>
+                    <label for="name"></label>
+                    <input type="text" placeholder="Name" class="form-input" id="name" required="required">
+                        
+                        
+                        
+                    <label for="InputEmail"></label>
+                    <input type="email" placeholder="Email" class="form-input" id="InputEmail" aria-describedby="emailHelp" required="required">
 
-                            
-        
-        <button type="submit" class="btn btn-primary btn-block">Send</button>
-                    </form>   
-                </section> 
+                    <label class="your-message" for="message"></label>
+                    <textarea name="message" placeholder="Write your message here" id="message" cols="30" rows="10"></textarea>
+                        
+                        
+                    <button type="submit" class="button">Submit</button>
+                </form>    
 
             </section>               
        
