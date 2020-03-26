@@ -37,7 +37,6 @@ body{
   color: #fff;
   background-color: #5c6063 !important;
   border-color: #5c6063 !important;
-  margin-bottom: 200px;
 }
 
 .section-container{
@@ -50,9 +49,14 @@ body{
 
 .titleleft{
   font-family: poppins;
-  font-size: 20px;
+  font-size: 40px;
+  max-width: 400px;
+  text-align: center;
 }
 
+.formsignup{
+  padding: 50px;
+}
 
 /******** FOOTER *********/
 
