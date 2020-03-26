@@ -1,0 +1,210 @@
+@font-face{
+  font-family: sansita;
+  src: url(/fonts/Sansita-ExtraBoldItalic.ttf);
+}
+@font-face{
+  font-family: poppins;
+  src: url(/fonts/Poppins-SemiBold.ttf);
+}
+@font-face{
+  font-family: poppins-regular;
+  src: url(/fonts/Poppins-Regular.ttf);
+}
+
+body{
+  box-sizing: border-box;
+}
+
+/******** NAVBAR *********/
+
+.navbar{
+  background-color: #EF4A47;
+}
+
+.navbar-brand{
+  font-family: sansita;
+}
+
+.nav-item{
+  font-family: poppins;
+}
+
+/******** BODY *********/
+
+.go-back-button{
+  background-color: #FCF9CF;
+  padding-top: 30px;
+}
+
+.go-back-button a{
+  margin: 20px 0 0 70px;
+}
+
+.section-container{
+  display: flex;
+  background-color: #FCF9CF;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.sign-up-message{
+  width: 400px;
+}
+
+.sign-up-message h2{
+  font-family: sansita;
+  color: #EF4A47;
+  font-size: 4em;
+}
+
+.sign-up-title{
+  margin: 0 auto;
+  font-family: poppins;
+  color: #FCF9CF;
+}
+
+.sign-up-container{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #EF4A47;
+  padding: 100px 30px;
+  border-radius: .25rem;
+  box-shadow: 5px 5px 15px rgba(89, 88, 88, 0.3);
+}
+
+.form-input{
+  width: 80%;
+  margin: 20px 0;
+  background: transparent;
+  color: #FCF9CF;
+  border: none;
+  border-bottom: 1px solid #FCF9CF;
+  outline: none;
+  padding: 10px 0;
+}
+
+::placeholder{
+  color: #FCF9CF;
+  font-family: poppins-regular;
+  font-size: 1.2em;
+  opacity: .8;
+}
+
+.button{
+  width: 150px;
+  font-family: poppins-regular;
+  padding: 10px ;
+  margin-top: 20px;
+  background-color: #378FCE;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(89, 88, 88, 0.3);
+  
+}
+
+
+
+/******** FOOTER *********/
+
+footer{
+  background-color: #EF4A47;
+  padding-bottom: 30px;
+  font-family: poppins;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.icons li{
+  list-style: none;
+  margin: 40px 10px 0 10px;
+  color: #FCF9CF;
+  opacity: .7;
+  transition:ease-in-out 0.2s ;
+}
+
+.icons li:hover{
+  opacity: 1;
+
+}
+
+.footer-links li{
+  list-style: none;
+  margin: 20px 30px 0 30px;
+  cursor: pointer;
+}
+
+.footer-links li a{
+  text-decoration: none;
+  color: #ffffff;
+  opacity: .5;
+}
+
+.footer-links li a:hover{
+  opacity: .7;
+}
+
+
+/******** MEDIA QUERIES *********/
+
+@media(max-width:1200px){
+  .sign-up-message{
+    width: 300px;
+  }
+
+  .sign-up-message h2{
+    font-size: 3em;
+  }
+
+  .sign-up-container{
+    width: 400px;
+  }
+
+  
+}
+
+
+@media(max-width: 768px){
+  .footer-links{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-links li{
+      list-style: none;
+      margin: 10px 30px 10px 30px;
+  }
+
+  .section-container{
+    flex-direction: column;
+  }
+
+  .sign-up-message{
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .sign-up-message h2{
+    text-align: center;
+  }
+
+  .sign-up-container{
+    width: 80%;
+  }
+
+}
