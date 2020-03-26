@@ -1,0 +1,138 @@
+Contact-good.css
+@font-face{
+    font-family: sansita;
+    src: url(/fonts/Sansita-ExtraBoldItalic.ttf);
+  }
+  @font-face{
+    font-family: poppins;
+    src: url(/fonts/Poppins-SemiBold.ttf);
+  }
+  
+  
+  body{
+    box-sizing: border-box;
+    
+  
+  }
+  
+  .navbar{
+    background-color: #EF4A47;
+  }
+  
+  
+  .navbar-brand{
+    font-family: sansita;
+  }
+  
+  .nav-item{
+    font-family: poppins;
+  }
+  /******** BODY *********/
+  .titlelogin{
+    margin-top: 50px;
+    font-family: poppins;
+    font-size: 15px !important;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #5c6063 !important;
+    border-color: #5c6063 !important;
+  }
+  
+  .section-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color:#FCF9CF;
+      
+  }
+  
+  .titleleft{
+    font-family: poppins;
+    font-size: 40px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .formsignup{
+    padding: 50px;
+  }
+  
+  /******** FOOTER *********/
+  
+  footer{
+    background-color: #EF4A47;
+    padding-bottom: 30px;
+    font-family: poppins;
+  }
+  
+  .icons{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .footer-links{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .icons li{
+    list-style: none;
+    margin: 40px 10px 0 10px;
+    color: #FCF9CF;
+    opacity: .7;
+    transition:ease-in-out 0.2s ;
+  }
+  
+  .icons li:hover{
+    opacity: 1;
+  
+  }
+  
+  .footer-links li{
+    list-style: none;
+    margin: 20px 30px 0 30px;
+    color: #ffffff;
+    opacity: .7;
+    cursor: pointer;
+  }
+  
+  .footer-links li:hover{
+    opacity: 1;
+  }
+  
+  
+  .purple-border textarea {
+    border: 1px solid #bbb2bd;
+  }
+  .purple-border .form-control:focus {
+    border: 1px solid #7d777e;
+    box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+  }
+  
+  
+  @media(max-width: 768px){
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .footer-links li{
+        list-style: none;
+        margin: 10px 30px 10px 30px;
+        color: #ffffff;
+        opacity: .7;
+        cursor: pointer;
+    }
+  
+    .section-container {
+      flex-direction: column;
+      }
+    
+   
+  }
