@@ -7,8 +7,11 @@
   src: url(/fonts/Poppins-SemiBold.ttf);
 }
 
+
 body{
   box-sizing: border-box;
+  
+
 }
 
 .navbar{
@@ -24,26 +27,31 @@ body{
   font-family: poppins;
 }
 /******** BODY *********/
-.marg{
+.titlelogin{
   margin-top: 50px;
-  font-family: sansita;
-}
-
-.container-fluid{
-  background-color:#FCF9CF;
+  font-family: poppins;
+  font-size: 15px !important;
 }
 
 .btn-primary {
   color: #fff;
   background-color: #5c6063 !important;
   border-color: #5c6063 !important;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 
 .section-container{
-    display: flex
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#FCF9CF;
+    
 }
 
+.titleleft{
+  font-family: poppins;
+  font-size: 20px;
+}
 
 
 /******** FOOTER *********/
@@ -108,6 +116,12 @@ footer{
       opacity: .7;
       cursor: pointer;
   }
+
+  .section-container {
+    flex-direction: column;
+    }
+  
+ 
 }
 
 
