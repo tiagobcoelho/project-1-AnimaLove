@@ -125,9 +125,12 @@ p{
   text-decoration: underline;
 }
 
+#sign-in-container{
+  display: none;
+}
 
 .sign-in-container{
-  display: none;
+  display: flex;
   width: 500px;
   align-items: center;
   flex-direction: column;
