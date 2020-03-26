@@ -73,11 +73,14 @@ body{
     height: 500px;
     margin: 10px;
     box-shadow: 5px 5px 15px rgba(89, 88, 88, 0.3);
+    position: relative;
 }
 
 .btn{
     background-color: #EF4A47;
     box-shadow: 5px 5px 15px rgba(89, 88, 88, 0.3);
+    position: absolute;
+    top: 80%;
 }
 
 

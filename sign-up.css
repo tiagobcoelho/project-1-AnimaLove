@@ -103,7 +103,44 @@ body{
   border: none;
   border-radius: 5px;
   box-shadow: 5px 5px 15px rgba(89, 88, 88, 0.3);
-  
+}
+
+#sign-up{
+  background: transparent;
+  border: none;
+  padding-top: 20px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+p{
+  color: #ffffff;
+}
+
+#sign-in{
+  background: transparent;
+  border: none;
+  padding-top: 20px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+.sign-in-container{
+  display: none;
+  width: 500px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #EF4A47;
+  padding: 100px 30px;
+  border-radius: .25rem;
+  box-shadow: 5px 5px 15px rgba(89, 88, 88, 0.3);
+}
+
+.sign-in-title{
+  margin: 0 auto;
+  font-family: poppins;
+  color: #FCF9CF;
 }
 
 

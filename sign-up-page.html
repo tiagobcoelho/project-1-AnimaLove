@@ -10,6 +10,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body>
+
+        <!-- NAVBAR -->
+
         <nav class="navbar navbar-expand-md navbar-dark">
             <a class="navbar-brand" href="./index.html">AnimaLove</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
@@ -33,60 +36,91 @@
             </div>
         </nav>
 
-            <div class="go-back-button"> 
-                <a href="./index.html"><img src="./icons/left-arrow.png" alt=""></a>
+        <!-- PREV BUTTON-->
+
+        <div class="go-back-button"> 
+
+            <a href="./index.html"><img src="./icons/left-arrow.png" alt=""></a>
+
+        </div>
+
+        <!-- SIGN-UP MESSAGE -->
+
+        <section class="section-container">
+
+            <div class="sign-up-message">
+                <h2>Join us and spend some quality time with our dogs</h2>
             </div>
 
-            <section class="section-container">
-                <div class="sign-up-message">
-                    <h2>Join us and spend some quality time with our dogs</h2>
-                </div>
+        <!-- SIGN-UP FORM -->    
                 
-                <form class="sign-up-container">
-                    <div class="sign-up-title">
-                        <h3> SIGN UP</h3>
-                    </div>
-                        
-                    <label for="name"></label>
-                    <input type="text" placeholder="Name" class="form-input" id="name" required="required">
-                        
-                        
-                    <label for="address"></label>
-                    <input type="text" placeholder="Adress" class="form-input" id="address" required="required">
-                        
-                        
-                    <label for="InputEmail"></label>
-                    <input type="email" placeholder="Email" class="form-input" id="InputEmail" aria-describedby="emailHelp" required="required">
-                        
-                        
-                    <label for="InputPassword"></label>
-                    <input type="password" placeholder="Password" class="form-input" id="InputPassword" name="up" required="required">
-                        
-                        
-                    <label for="ConfirmPassword"></label>
-                    <input type="password" placeholder="Confirm Password" class="form-input" id="ConfirmPassword" name="up2" required="required"> 
-                        
-                    <button type="submit" class="button">Submit</button>
-                </form>    
+            <form class="sign-up-container" id="sign-up-container">
+                <div class="sign-up-title">
+                    <h3> SIGN UP</h3>
+                </div>
 
-            </section>               
+                <label for="name"></label>
+                <input type="text" placeholder="Name" class="form-input" id="name" >
+                        
+                        
+                <label for="InputEmail"></label>
+                <input type="email" placeholder="Email" class="form-input" id="InputEmail" aria-describedby="emailHelp" >
+
+            
+                <label for="username"></label>
+                <input type="text" placeholder="Username" class="form-input" id="username" name="username" > 
+                 
+                        
+                <label for="InputPassword"></label>
+                <input type="password" placeholder="Password" class="form-input" id="InputPassword" name="up" >
+                        
+                        
+                <label for="ConfirmPassword"></label>
+                <input type="password" placeholder="Confirm Password" class="form-input" id="ConfirmPassword" name="up2" > 
+                        
+                <button type="submit" class="button">Sign Up</button>
+
+                <p>Already have an account?<button id="sign-in">Login here</button></p>
+            </form> 
+            
+            <form class="sign-in-container" id="sign-in-container">
+                <div class="sign-in-title">
+                    <h3> SIGN IN</h3>
+                </div>
+
+                <label for="username"></label>
+                <input type="text" placeholder="Username" class="form-input" id="username" name="username" > 
+                
+                        
+                <label for="InputPassword"></label>
+                <input type="password" placeholder="Password" class="form-input" id="InputPassword" name="up" >
+                    
+                        
+                <button type="submit" class="button">Sign In</button>
+
+                <p>Don't have an account yet?<button id="sign-up">Sign up here</button></p>
+            </form>
+
+        </section>               
        
 
         <!-- FOOTER -->
 
-    <footer>
-        <ul class="icons">
-            <li><a href=""><img class="icon" src="./icons/facebook.png" alt="facebook icon"></a></li>
-            <li><a href=""><img src="./icons/instagram.png" alt=""></a></li>
-            <li><a href=""><img src="./icons/twitter.png" alt=""></a></li>
-        </ul>
-        <ul class="footer-links">
-            <li><a href="./our-dogs-page.html">Our Dogs</a></li>
-            <li><a href="./about-us-page.html">About us</a></li>
-            <li><a href="./Contact-good.html">Contact us</a></li>
-            <li><a href="./sign-up-page.html">Sing up</a></li>
-        </ul>
-    </footer>
+        <footer>
+            <ul class="icons">
+                <li><a href=""><img class="icon" src="./icons/facebook.png" alt="facebook icon"></a></li>
+                <li><a href=""><img src="./icons/instagram.png" alt=""></a></li>
+                <li><a href=""><img src="./icons/twitter.png" alt=""></a></li>
+            </ul>
+            <ul class="footer-links">
+                <li><a href="./our-dogs-page.html">Our Dogs</a></li>
+                <li><a href="./about-us-page.html">About us</a></li>
+                <li><a href="./Contact-good.html">Contact us</a></li>
+                <li><a href="./sign-up-page.html">Sing up</a></li>
+            </ul>
+        </footer>
+
+        <script src="sign-up.js"></script>
 
     </body>
 </html>
