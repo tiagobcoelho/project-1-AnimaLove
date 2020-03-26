@@ -1,14 +1,14 @@
 @font-face{
     font-family: sansita;
-    src: url(/fonts/Sansita-ExtraBoldItalic.ttf);
+    src: url(./fonts/Sansita-ExtraBoldItalic.ttf);
 }
 @font-face{
     font-family: poppins;
-    src: url(/fonts/Poppins-SemiBold.ttf);
+    src: url(./fonts/Poppins-SemiBold.ttf);
 }
 @font-face{
     font-family: poppins-regular;
-    src: url(/fonts/Poppins-Regular.ttf);
+    src: url(./fonts/Poppins-Regular.ttf);
 }
 
 body{
