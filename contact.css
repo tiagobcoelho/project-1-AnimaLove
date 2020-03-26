@@ -31,6 +31,15 @@ body{
 
 /******** BODY *********/
 
+.go-back-button{
+  background-color: #FCF9CF;
+  padding-top: 30px;
+}
+
+.go-back-button a{
+  margin: 20px 0 0 70px;
+}
+
 .section-container{
   display: flex;
   background-color: #FCF9CF;

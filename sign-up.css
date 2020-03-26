@@ -199,6 +199,10 @@ footer{
     margin-bottom: 50px;
   }
 
+  .sign-up-message h2{
+    text-align: center;
+  }
+
   .sign-up-container{
     width: 80%;
   }
