@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>AnimaLove</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="about-us.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,42 +12,40 @@
     </head>
     
     <body>
-        <nav class="navbar navbar-expand-sm">
-            <img class="navbar-brand" src="logo-image.png" alt="AnimaLove-logo">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsive">
+        <!--NAV BAR-->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href="#">AnimaLove</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
-            <div class="collapse navbar-collapse justify-content-center" id="responsive">                
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="our-dogs-page.html">0ur dogs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sign-up-page.html">Contact us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sign-up-page.html">Sign up</a></li>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Dogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sing up</a>
+                    </li>
                 </ul>
             </div>
-             <div class="login-container">
-                <form action="/action_page.php">
-                  <input type="text" placeholder="Username" name="username">
-                  <input type="text" placeholder="Password" name="psw">
-                  <button type="submit">Login</button>
-                </form>
-            </div>    
         </nav>
 
-        <section>
-            <div class="container-fluid">
-                <article class="row align-items-center">
-                    <h2 class="col-md-6 text-md-left col-sm-12">WHAT WE DO</h2>
-                    <p class="texte col-md-6 col-sm-12 col-12 text-justify">You love puppies but can’t have one? We are here to remedy it! Sharing a a moment together is now possible even if you don’t have a pet of your own. Everyone should have the oportunity to enjoy the affection of a puppy!</p>
-                </article> 
-                <hr>
-                <article class="row align-items-center">
-                    <h2 class="col-md-6 text-md-right order-md-12 col-sm-12">WHO WE ARE</h2>
-                    <p class="texte col-md-6 order-md-1 col-sm-12 text-justify">Animaloves was born of our passion for ours four-legged companions. 
-                        We are convinced that these very sociable animals bring a lot. Because a dog is always happy and it sends us his good mood! Try the Animalove experience and why not get adopted!
-                </article>    
-            </div>   
+        <section class="sections-container">
+            <div class="content-container">
+                <h2 class="">WHAT WE DO</h2>
+                <p class="">You love puppies but can’t have one? We are here to remedy it! Sharing a a moment together is now possible even if you don’t have a pet of your own. Everyone should have the oportunity to enjoy the affection of a puppy!</p>
+            </div>
+            <div class="content-container reverse"> 
+                <p class="">Animaloves was born of our passion for ours four-legged companions. 
+                We are convinced that these very sociablanimals bring a lot. Because a dog ialways happy and it sends us his goomood! Try the Animalove experience and whnot get adopted!</p>
+                <h2 class="">WHO WE ARE</h2>
+            </div>  
 
         </section>
        

@@ -6,10 +6,16 @@
     font-family: poppins;
     src: url(/fonts/Poppins-SemiBold.ttf);
 }
+@font-face{
+    font-family: poppins-regular;
+    src: url(/fonts/Poppins-Regular.ttf);
+}
 
 body{
     box-sizing: border-box;
 }
+
+/*********** NAV BAR ***********/
 
 .navbar{
     background-color: #EF4A47;
@@ -28,21 +34,35 @@ body{
 
 /******** BODY *********/
 
-.container-fluid{
+.sections-container{
     background-color: #FCF9CF;
-    margin-top: 50PX;
-    
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.texte{
-    font-family: poppins;
-    width: 250px;
-    font-size: 20px;
+.content-container{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:  1px solid #EF4A47;
+}
+
+.content-container h2{
     color: #EF4A47;
-
-
+    font-family: sansita;
+    font-size: 4em;
 }
+
+.content-container p{
+    max-width: 600px;
+    font-family: poppins-regular;
+    
+}
+
+
+
 /******** FOOTER *********/
 
 footer{
@@ -89,7 +109,19 @@ footer{
     opacity: 1;
 }
 
+@media(max-width: 1000px){
+    .content-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column-reverse;
+    }
 
+    .content-container p{
+        max-width: 80%;
+    }
+
+}
 
 @media(max-width: 768px){
     .footer-links{
@@ -105,6 +137,8 @@ footer{
         opacity: .7;
         cursor: pointer;
     }
+
+    
 }
 
 
