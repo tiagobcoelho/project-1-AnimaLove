@@ -33,6 +33,13 @@ body{
   background-color:#FCF9CF;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: #5c6063 !important;
+  border-color: #5c6063 !important;
+  margin-bottom: 50px;
+}
+
 /******** FOOTER *********/
 
 footer{
