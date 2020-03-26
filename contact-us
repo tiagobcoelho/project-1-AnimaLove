@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Aline Sinclaire">
+  <meta name="description" content="Contact us page">
+  <title>Contact us</title>
+  
+</head>
+
+<body>
+     
+    <!--NAV BAR-->
+ <section>
+    <nav>
+        <img src="" alt="">
+        <ul>
+            <li>Our Dogs</li>
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>Sing up</li>
+        </ul>
+    </nav>
+
+  </section>
+  
+  <!-- FORM -->
+  
+  <p>Drop us a line...</p>
+
+  <section>
+    
+    <div class=container-contact>
+       
+     <form method="post" action="/none">
+       
+       <label for="name"> Full Name: </label>
+ 
+  <input type="text" id="name" name="name" placeholder="Write your name here..." required>
+   
+  <label for="email"> E-mail: </label>   
+  <input type="email" id="email" name="email" placeholder="Write your e-mail here..." required class="inputform">
+       
+   <label for="message"> Write a message to us: </label>
+     
+   <textarea name="message" rows="6" cols="50" id="message" required class="inputform"> </textarea>
+         
+     <label for=send >&nbsp;</label>
+     
+     <input type="submit" id="send" value="SEND">
+       
+       </form>
+      </div> 
+    
+  </section>
+  
+  <!-- FOOTER -->
+
+    <footer>
+        <ul>
+            <li>facebook icon</li>
+            <li>instagram icon</li>
+            <li>twitter</li>
+        </ul>
+        <ul>
+            <li>Our Dogs</li>
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>Sing up</li>
+        </ul>
+        <p>copyrights</p>
+    </footer>
+  
+</body>
+
+</html>
