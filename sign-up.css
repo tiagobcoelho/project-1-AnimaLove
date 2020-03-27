@@ -140,10 +140,24 @@ p{
   box-shadow: 5px 5px 15px rgba(89, 88, 88, 0.3);
 }
 
+#sign-in-message{
+  display: none;
+}
+
 .sign-in-title{
   margin: 0 auto;
   font-family: poppins;
   color: #FCF9CF;
+}
+
+.sign-in-message{
+  width: 400px;
+}
+
+.sign-in-message h2{
+  font-family: sansita;
+  color: #EF4A47;
+  font-size: 4em;
 }
 
 
@@ -210,6 +224,14 @@ footer{
     font-size: 3em;
   }
 
+  .sign-in-message{
+    width: 300px;
+  }
+
+  .sign-in-message h2{
+    font-size: 3em;
+  }
+
   .sign-up-container{
     width: 400px;
   }
@@ -240,10 +262,19 @@ footer{
 
   .sign-up-message{
     width: 80%;
-    margin-bottom: 50px;
+    margin: 30px auto;
   }
 
   .sign-up-message h2{
+    text-align: center;
+  }
+
+  .sign-in-message{
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .sign-in-message h2{
     text-align: center;
   }
 
